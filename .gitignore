@@ -1,0 +1,19 @@
+@"
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Local files
+.env
+"@ | Out-File -Encoding utf8 .gitignore
