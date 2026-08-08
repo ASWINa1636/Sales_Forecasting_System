@@ -9,6 +9,7 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+/archive.zip
 
 # Trained models
 models/*.pkl
